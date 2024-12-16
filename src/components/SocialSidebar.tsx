@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram, Pinterest } from 'lucide-react';
+import { Facebook, Twitter, Instagram } from 'lucide-react';
 
 const SocialSidebar = () => {
   return (
@@ -9,9 +9,6 @@ const SocialSidebar = () => {
         </a>
         <a href="#" className="text-gray-400 hover:text-white transition-colors">
           <Twitter className="h-5 w-5" />
-        </a>
-        <a href="#" className="text-gray-400 hover:text-white transition-colors">
-          <Pinterest className="h-5 w-5" />
         </a>
         <a href="#" className="text-gray-400 hover:text-white transition-colors">
           <Instagram className="h-5 w-5" />
