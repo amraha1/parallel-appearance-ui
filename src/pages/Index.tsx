@@ -1,5 +1,6 @@
 import Navigation from '../components/Navigation';
 import SocialSidebar from '../components/SocialSidebar';
+import ServicesSection from '../components/ServicesSection';
 import { ArrowRight } from 'lucide-react';
 
 const Index = () => {
@@ -45,6 +46,7 @@ const Index = () => {
             </div>
           </div>
         </div>
+        <ServicesSection />
       </main>
     </div>
   );
