@@ -8,6 +8,7 @@ import { ContactButton } from '@/components/contact/contactButton';
 import Contact from '@/components/contact/ContactSection';
 import { ServiceDetails } from '@/components/Services/ServiceDetails';
 import ContactSection  from '@/components/ContactForm/ContactSection';
+import Footer  from '@/components/Footer/Footer';
 
 
 const Index = () => {
@@ -59,6 +60,7 @@ const Index = () => {
        <Contact />
        <ServiceDetails />
        <ContactSection />
+       <Footer />
       </main>
     </div>
   );

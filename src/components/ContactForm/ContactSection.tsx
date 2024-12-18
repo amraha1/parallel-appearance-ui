@@ -28,7 +28,7 @@ const socialLinks = [
 
  const SocialLinks = () => {
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 py-[30px]">
       <h5 className="text-xl font-bold text-white">Follow Us</h5>
       <p className="text-gray-400">Follow us on Social Network</p>
       <div className="flex gap-4">
