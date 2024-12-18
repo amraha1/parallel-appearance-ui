@@ -2,6 +2,13 @@ import Navigation from '../components/Navigation';
 import SocialSidebar from '../components/SocialSidebar';
 import ServicesSection from '../components/ServicesSection';
 import { ArrowRight } from 'lucide-react';
+import ApproachSection from '@/components/ApproachSection';
+import { PricingSection } from '@/components/Pricing/PricingSection';
+import { ContactButton } from '@/components/contact/contactButton';
+import Contact from '@/components/contact/ContactSection';
+import { ServiceDetails } from '@/components/Services/ServiceDetails';
+import ContactSection  from '@/components/ContactForm/ContactSection';
+
 
 const Index = () => {
   return (
@@ -47,6 +54,11 @@ const Index = () => {
           </div>
         </div>
         <ServicesSection />
+        <ApproachSection />
+        <PricingSection />
+       <Contact />
+       <ServiceDetails />
+       <ContactSection />
       </main>
     </div>
   );
